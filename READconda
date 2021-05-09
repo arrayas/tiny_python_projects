@@ -1,0 +1,12 @@
+conda create -n tiny-env
+
+conda activate tiny-env
+
+# to install required packages from file
+mamba install --file requirements.txt
+
+# exporting and reproducing enviroments
+
+conda env export > environment.yml
+
+conda env create -f environment.yml
