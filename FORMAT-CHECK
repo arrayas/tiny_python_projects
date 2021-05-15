@@ -1,0 +1,12 @@
+test with Flake 8
+
+$ flake8 hello.py
+
+then
+
+$ yapf -i hello.py
+
+test with Pylint
+
+$ pylint hello.py
+
